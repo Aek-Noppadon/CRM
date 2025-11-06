@@ -34,8 +34,6 @@ class ProductCreate extends Component
             return;
         }
 
-        // add feature 1
-
         $this->validate(
             [
                 'product_name' => ['required'],
