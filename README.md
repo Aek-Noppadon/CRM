@@ -8,6 +8,8 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
 ```bash
 composer install
+php artisan key:generate
+npm i  & npm run build
 php artisan serve
 ```
 
