@@ -29,9 +29,6 @@ class ProductCreate extends Component
                 $query->where('department_id', $departmentId);
             })->exists();
 
-        // do some thing
-        // add my feature 1
-
         if ($exists) {
             $this->addError('product_name', __('custom/products.product_name'));
             return;
