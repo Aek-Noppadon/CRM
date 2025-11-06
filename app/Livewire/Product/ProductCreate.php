@@ -36,6 +36,7 @@ class ProductCreate extends Component
         }
 
         // Comment
+        //comment 2
 
         $this->validate(
             [
