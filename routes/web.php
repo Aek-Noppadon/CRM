@@ -42,7 +42,7 @@ Route::middleware('auth')->group(function () {
     // Route::get('/crm/list', AllCrm::class)->name('crm.list');
     // Route::get('/crm/create', CrmCreate::class)->name('crm.create');
 });
-
+// my feature 2
 require __DIR__ . '/auth.php';
 
 Route::group([
