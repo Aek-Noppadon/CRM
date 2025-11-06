@@ -16,16 +16,8 @@ php artisan serve
 ## Usage
 
 ```python
-import foobar
+APP_LOCALE=th
 
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
 ```
 
 ## Contributing
