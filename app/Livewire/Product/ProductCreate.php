@@ -35,6 +35,8 @@ class ProductCreate extends Component
             return;
         }
 
+        // Comment
+
         $this->validate(
             [
                 'product_name' => ['required'],
