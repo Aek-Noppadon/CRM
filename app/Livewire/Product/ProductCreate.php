@@ -24,6 +24,7 @@ class ProductCreate extends Component
     {
         $departmentId = auth()->user()->department_id;
 
+        //Validate product name before save
         $exists = Product::where('product_name', $this->product_name)
             ->whereHas('userCreated', function ($query) use ($departmentId) {
                 $query->where('department_id', $departmentId);
